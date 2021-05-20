@@ -2208,11 +2208,11 @@
 
 "@pancakeswap-libs/uikit@coinsbittytester/cbttest-k":
   version "0.10.2"
-  resolved "https://codeload.github.com/coinsbittytester/cbttest-k/tar.gz/087473eadf1076161365fb15ac69dea61b2bed32"
+  resolved "https://codeload.github.com/coinsbittytester/cbttest-k/tar.gz/73441eecdbf245a87324654b219140f9a4fd721f"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
+    lodash "^4.17.21"
     react-transition-group "^4.4.1"
     styled-system "^5.1.5"
 
