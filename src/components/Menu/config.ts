@@ -1,4 +1,4 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from 'tinvs-uikit'
 import { getCakeAddress, getBeeAddress } from 'utils/addressHelpers'
 
 

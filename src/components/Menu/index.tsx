@@ -4,7 +4,7 @@ import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
 import { usePriceCakeBusd, usePriceBeeBusd } from 'state/hooks'
-import { Menu as UikitMenu } from '@pancakeswap-libs/uikit'
+import { Menu as UikitMenu } from 'tinvs-uikit'
 import config from './config'
 import { getCakeAddress, getBeeAddress } from '../../utils/addressHelpers'
 
