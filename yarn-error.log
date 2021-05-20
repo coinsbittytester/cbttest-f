@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add coinsbittytester/cbttest-k
+  C:\Program Files\nodejs\node.exe C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add husky 3.1.0
 
 PATH: 
   C:\Users\kabam\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\kabam\AppData\Local\Programs\Python\Python39\;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\php;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\kabam\AppData\Local\Microsoft\WindowsApps;C:\Users\kabam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kabam\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\kabam\AppData\Roaming\npm
@@ -14,21 +14,21 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://codeload.github.com/coinsbittytester/cbttest-k/tar.gz/087473eadf1076161365fb15ac69dea61b2bed32: Request failed "404 Not Found"
-      at ResponseError.ExtendableBuiltin (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
-      at new ResponseError (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
-      at Request.<anonymous> (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67058:16)
+  Error: https://registry.yarnpkg.com/3.1.0: Not found
+      at Request.params.callback [as _callback] (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
       at Request.emit (events.js:376:20)
-      at Request.module.exports.Request.onRequestResponse (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141539:10)
-      at ClientRequest.emit (events.js:376:20)
-      at HTTPParser.parserOnIncomingClient (_http_client.js:647:27)
-      at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
-      at TLSSocket.socketOnData (_http_client.js:515:22)
-      at TLSSocket.emit (events.js:376:20)
+      at Request.<anonymous> (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:376:20)
+      at IncomingMessage.<anonymous> (C:\Users\kabam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:482:28)
+      at IncomingMessage.emit (events.js:388:22)
+      at endReadableNT (internal/streams/readable.js:1336:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
 
 npm manifest: 
   {
-    "name": "tinvs-frontend",
+    "name": "goose-frontend",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -62,7 +62,7 @@ npm manifest:
       "@binance-chain/bsc-use-wallet": "^0.8.1",
       "@crowdin/crowdin-api-client": "^1.10.1",
       "@ethersproject/abi": "^5.0.7",
-      "tinvs-uikit": "coinsbittytester/cbttest-k",
+      "@pancakeswap-libs/uikit": "coinsbittytester/cbttest-k",
       "@reduxjs/toolkit": "^1.5.0",
       "@types/react": "^17.0.0",
       "@types/react-dom": "^17.0.0",
@@ -71,7 +71,7 @@ npm manifest:
       "bignumber.js": "^9.0.0",
       "chart.js": "^2.9.4",
       "iframe-resizer-react": "^1.1.0",
-      "lodash": "^4.17.20",
+      "lodash": "^4.17.21",
       "react": "^17.0.1",
       "react-chartjs-2": "^2.11.1",
       "react-countup": "^4.3.3",
@@ -2310,13 +2310,13 @@ Lockfile:
       eslint-plugin-react "^7.21.5"
       eslint-plugin-react-hooks "^4.0.0"
   
-  "tinvs-uikit@coinsbittytester/cbttest-k":
+  "@pancakeswap-libs/uikit@coinsbittytester/cbttest-k":
     version "0.10.2"
-    resolved "https://codeload.github.com/coinsbittytester/cbttest-k/tar.gz/087473eadf1076161365fb15ac69dea61b2bed32"
+    resolved "https://codeload.github.com/coinsbittytester/cbttest-k/tar.gz/73441eecdbf245a87324654b219140f9a4fd721f"
     dependencies:
       "@types/lodash" "^4.14.162"
       "@types/styled-system" "^5.1.10"
-      lodash "^4.17.20"
+      lodash "^4.17.21"
       react-transition-group "^4.4.1"
       styled-system "^5.1.5"
   
