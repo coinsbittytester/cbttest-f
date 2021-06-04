@@ -531,7 +531,7 @@ var Icon$11 = function (props) {
 var Icon$10 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
         React.createElement("image", { width: 24, height: 24, href: "/images/coins/ICEBRK.png" })));
-};
+};   
 
 var Icon$$ = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 512 512" }, props),
